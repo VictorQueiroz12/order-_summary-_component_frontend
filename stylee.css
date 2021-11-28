@@ -1,0 +1,73 @@
+:root{
+    --azul-clraro: hsl(225, 100%, 94%);
+   --azul: hsl(245, 75%, 52%);
+   ---azul-bem-claro: hsl(225, 100%, 98%);
+   --azul-desbotado: hsl(224, 23%, 55%);
+   --azul-escuro: hsl(223, 47%, 23%);
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px;
+}
+
+html,body{
+    background: #f2eaea;
+}
+
+.container{
+    background: white;
+    margin: 50px auto;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.bannerf{
+    margin: 10px 0px 10px;
+}
+
+.buyplan{
+    margin: 20px 90px 0px 90px;
+    border-radius: 15px;
+    width: 260px;    
+    background: var(---azul-bem-claro);
+
+}
+
+.subplan{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.music{
+    margin: 15px 50px 20px 10px;
+}
+
+.backg{
+    margin: 0px 10px 0px 0px;
+}
+
+button{
+    align-items: center;
+    background: var(--azul);
+    border: none;
+    border-radius: 10px;
+    width: 20em;
+    height: 3em;
+    margin: 5px;
+}
+
+.cancel{
+    margin-left:-10em -30em;
+    margin: 20px;
+    height: 50px;
+}
+
+svg{
+    border-radius: 50%;
+}
