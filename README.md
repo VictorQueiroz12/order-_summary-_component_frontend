@@ -1,2 +1,2 @@
-# order-_summary-_component_frontend
+# order_summary_component_frontend
 Projeto tirado do www.frontendmentor.io para estudo de HTML e CSS.
